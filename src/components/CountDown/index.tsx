@@ -1,4 +1,4 @@
-import { useTaskContext } from '../../templates/TaskContext';
+import { useTaskContext } from '../../context/TaskContext/useTaskContext';
 import styles from './styles.module.css';
 
 export function CountDown() {
