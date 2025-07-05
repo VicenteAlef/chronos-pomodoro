@@ -16,7 +16,7 @@ export function MainForm() {
       </div>
 
       <div className='formRow'>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Próximo intervalo é de xx min.</p>
       </div>
 
       <div className='formRow'>
@@ -24,7 +24,7 @@ export function MainForm() {
       </div>
 
       <div className='formRow'>
-        <DefaultButton icon={<PlayCircleIcon />} color='green' />
+        <DefaultButton icon={<PlayCircleIcon />} />
       </div>
     </form>
   );

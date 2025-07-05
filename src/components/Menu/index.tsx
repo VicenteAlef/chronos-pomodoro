@@ -34,7 +34,7 @@ export function Menu() {
 
   return (
     <div className={styles.menu}>
-      <a href='#' aria-label='Home' title='Home'>
+      <a href='#' aria-label='Home' title='Home' >
         <HouseIcon />
       </a>
       <a href='#' aria-label='Ver Histórico' title='Histórico'>
