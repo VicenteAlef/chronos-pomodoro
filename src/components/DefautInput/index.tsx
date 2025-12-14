@@ -1,4 +1,4 @@
-import style from './styles.module.css'
+import style from './styles.module.css';
 
 type DefaultInputProps = {
   id: string;

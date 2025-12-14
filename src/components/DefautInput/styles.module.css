@@ -1,5 +1,4 @@
 .input {
-  border: none;
   background-color: transparent;
   text-align: center;
   font-size: 1.8rem;
@@ -8,7 +7,7 @@
   outline: none;
   border: 0.2rem solid transparent;
   border-bottom: 0.2rem solid var(--primary);
-  transition: all 0.2 ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .input:focus {
@@ -24,5 +23,5 @@
 
 .input:disabled {
   border-bottom: 0.2rem solid var(--disabled);
-  color: var(--text-muted)
+  color: var(--text-muted);
 }
