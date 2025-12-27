@@ -63,6 +63,7 @@ export function MainForm() {
           labelText='Task:'
           placeholder='Insira uma tarefa'
           ref={taskNameInput} // utiliza a ref para capturar o valor do input
+          disabled={!!state.activeTask}
         />
       </div>
 
@@ -70,9 +71,11 @@ export function MainForm() {
         <p>Próximo intervalo é de xx min.</p>
       </div>
 
-      <div className='formRow'>
-        <Cycles />
-      </div>
+      {state.currentCycle > 0 && (
+        <div className='formRow'>
+          <Cycles />
+        </div>
+      )}
 
       <div className='formRow'>
         <DefaultButton icon={<PlayCircleIcon />} />
